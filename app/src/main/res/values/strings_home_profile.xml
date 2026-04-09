@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Informatique mobile</string>
+    <string name="home_description">Exercice 1 : Création de profil</string>
+    <string name="btn_create_profile">Créer un profil</string>
+    <string name="profile_not_created">Aucun profil créé pour le moment.</string>
+    <string name="btn_edit_profile">Modifier le profil</string>
+    <string name="contact_section">Section contact :</string>
+    <string name="interests_section">Section intérêts :</string>
+    <string name="label_create_profile">Création de profil</string>
+
+    <string name="btn_delete_profile">Supprimer</string>
+    <string name="btn_select_image">Sélectionner une image</string>
+</resources>

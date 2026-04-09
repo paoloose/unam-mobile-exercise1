@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exercise 1</string>
+    <string name="label_home">Home</string>
+    <string name="label_favorites">Favorites</string>
+    <string name="label_profile">Profile</string>
+    <string name="greeting_text">Hello %1$s!</string>
+    <string name="default_name">Android</string>
+    <string name="language_select">Select Language</string>
+    <string name="lang_fr">French</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Spanish</string>
+</resources>

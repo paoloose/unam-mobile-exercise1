@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form_first_name">Prénom(s)</string>
+    <string name="form_last_name">Nom(s)</string>
+    <string name="form_birthdate">Date de naissance</string>
+    <string name="form_gender">Genre</string>
+    <string name="form_phone">Numéro de téléphone</string>
+    <string name="form_email">Courriel</string>
+    <string name="form_interests">Intérêts (Optionnel)</string>
+    <string name="form_bio">Description (Optionnel)</string>
+    <string name="form_error_required">Ce champ est obligatoire</string>
+    <string name="form_error_age">Vous devez avoir au moins 13 ans</string>
+    <string name="form_error_phone">Numéro de téléphone invalide</string>
+    <string name="form_error_email">Format de courriel invalide</string>
+    <string name="gender_male">Homme</string>
+    <string name="gender_female">Femme</string>
+    <string name="gender_nonbinary">Non-binaire</string>
+    <string name="gender_prefer_not_to_say">Préfère ne pas le dire</string>
+    <string name="interest_sports">Sports</string>
+    <string name="interest_music">Musique</string>
+    <string name="interest_tech">Technologie</string>
+    <string name="interest_art">Art</string>
+    <string name="interest_travel">Voyage</string>
+    <string name="interest_gaming">Jeux vidéo</string>
+    <string name="btn_save">Enregistrer</string>
+</resources>

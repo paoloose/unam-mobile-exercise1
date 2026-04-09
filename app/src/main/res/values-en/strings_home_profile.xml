@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Mobile computing</string>
+    <string name="home_description">Exercise 1: Profile creation</string>
+    <string name="btn_create_profile">Create Profile</string>
+    <string name="profile_not_created">No profile created yet.</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="contact_section">Contact section:</string>
+    <string name="interests_section">Interests section:</string>
+    <string name="label_create_profile">Create Profile</string>
+    <string name="btn_delete_profile">Delete</string>
+    <string name="btn_select_image">Select Image</string>
+</resources>

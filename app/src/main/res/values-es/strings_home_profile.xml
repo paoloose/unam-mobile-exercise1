@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Cómputo móvil</string>
+    <string name="home_description">Ejercicio 1: Creación de perfil</string>
+    <string name="btn_create_profile">Crear perfil</string>
+    <string name="profile_not_created">Aún no se ha creado un perfil.</string>
+    <string name="btn_edit_profile">Editar perfil</string>
+    <string name="contact_section">Sección de contacto:</string>
+    <string name="interests_section">Sección de intereses:</string>
+    <string name="label_create_profile">Crear Perfil</string>
+    <string name="btn_delete_profile">Eliminar</string>
+    <string name="btn_select_image">Seleccionar imagen</string>
+</resources>

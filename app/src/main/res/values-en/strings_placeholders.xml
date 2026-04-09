@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="placeholder_first_name">e.g. John</string>
+    <string name="placeholder_last_name">e.g. Doe</string>
+    <string name="placeholder_email">john.doe@example.com</string>
+    <string name="placeholder_bio">Tell us about yourself...</string>
+</resources>
