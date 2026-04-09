@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Exercise 1</string>
+    <string name="app_name">Mobile Computing Exercise 1</string>
     <string name="label_home">Home</string>
     <string name="label_favorites">Favorites</string>
     <string name="label_profile">Profile</string>
