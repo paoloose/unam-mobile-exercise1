@@ -16,6 +16,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import site.paoloose.unam.exercise1.R
+import site.paoloose.unam.exercise1.data.Gender
 import site.paoloose.unam.exercise1.data.UserProfile
 
 @Composable
@@ -68,8 +69,13 @@ fun ProfileScreen(
             }
             Spacer(modifier = Modifier.height(16.dp))
             
+            val genderText = if (userProfile.gender != Gender.PREFER_NOT_TO_SAY) {
+                " (${stringResource(userProfile.gender.labelResId)})"
+            } else {
+                ""
+            }
             Text(
-                text = "${userProfile.firstName} ${userProfile.lastName} (${stringResource(userProfile.gender.labelResId)})",
+                text = "${userProfile.firstName} ${userProfile.lastName}$genderText",
                 style = MaterialTheme.typography.headlineMedium
             )
             Text(
