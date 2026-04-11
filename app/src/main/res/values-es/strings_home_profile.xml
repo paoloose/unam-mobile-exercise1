@@ -13,4 +13,6 @@
 
     <string name="cd_unam_logo">Logo de la UNAM</string>
     <string name="cd_profile_image">Imagen de perfil</string>
+
+    <string name="cd_back">Atrás</string>
 </resources>

@@ -32,12 +32,14 @@ fun HomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        // UNAM logo
         Image(
             painter = painterResource(id = R.drawable.unam_logo),
             contentDescription = stringResource(R.string.cd_unam_logo),
             modifier = Modifier.size(150.dp)
         )
         Spacer(modifier = Modifier.height(32.dp))
+        // App title and description
         Text(
             text = stringResource(R.string.app_title),
             style = MaterialTheme.typography.headlineLarge,
@@ -49,6 +51,7 @@ fun HomeScreen(
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Center
         )
+        // Create profile btn
         Spacer(modifier = Modifier.height(32.dp))
         Button(onClick = onCreateProfileClick) {
             Text(text = stringResource(R.string.btn_create_profile))

@@ -35,6 +35,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.dp
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import site.paoloose.unam.exercise1.R
 import site.paoloose.unam.exercise1.ui.components.LanguageSelector
 import site.paoloose.unam.exercise1.ui.navigation.AppDestinations
@@ -100,6 +102,16 @@ fun Exercise1App() {
                         Text(stringResource(R.string.app_name))
                     }
                 },
+                navigationIcon = {
+                    if (isCreatingProfile) {
+                        androidx.compose.material3.IconButton(onClick = { isCreatingProfile = false }) {
+                            Icon(
+                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                                contentDescription = stringResource(R.string.cd_back)
+                            )
+                        }
+                    }
+                },
                 actions = {
                     LanguageSelector()
                 }
@@ -109,6 +121,9 @@ fun Exercise1App() {
     ) { innerPadding ->
         Box(modifier = Modifier.padding(innerPadding).fillMaxSize()) {
             if (isCreatingProfile) {
+                androidx.activity.compose.BackHandler {
+                    isCreatingProfile = false
+                }
                 CreateProfileScreen(
                     initialProfile = userProfile,
                     onProfileSaved = { profile ->

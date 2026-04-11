@@ -6,6 +6,9 @@ import androidx.core.content.edit
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
+// We use the repository pattern to modify global user data
+// Also this allows us to hide the implementation for persistent user data
+
 class ProfileRepository(context: Context) {
 
     companion object {

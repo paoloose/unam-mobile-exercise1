@@ -13,4 +13,6 @@
 
     <string name="cd_unam_logo">UNAM Logo</string>
     <string name="cd_profile_image">Profile Image</string>
+
+    <string name="cd_back">Back</string>
 </resources>
