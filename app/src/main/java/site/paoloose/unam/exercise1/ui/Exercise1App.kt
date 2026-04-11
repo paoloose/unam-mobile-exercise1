@@ -36,7 +36,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.dp
 import site.paoloose.unam.exercise1.R
-import site.paoloose.unam.exercise1.data.UserProfile
 import site.paoloose.unam.exercise1.ui.components.LanguageSelector
 import site.paoloose.unam.exercise1.ui.navigation.AppDestinations
 import site.paoloose.unam.exercise1.ui.screens.CreateProfileScreen
@@ -95,7 +94,7 @@ fun Exercise1App() {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         androidx.compose.foundation.Image(
                             painter = painterResource(R.drawable.unam_logo),
-                            contentDescription = "UNAM Logo",
+                            contentDescription = stringResource(R.string.cd_unam_logo),
                             modifier = Modifier.padding(end = 8.dp).size(32.dp)
                         )
                         Text(stringResource(R.string.app_name))

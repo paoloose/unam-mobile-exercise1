@@ -10,4 +10,7 @@
     <string name="label_create_profile">Create Profile</string>
     <string name="btn_delete_profile">Delete</string>
     <string name="btn_select_image">Select Image</string>
+
+    <string name="cd_unam_logo">UNAM Logo</string>
+    <string name="cd_profile_image">Profile Image</string>
 </resources>

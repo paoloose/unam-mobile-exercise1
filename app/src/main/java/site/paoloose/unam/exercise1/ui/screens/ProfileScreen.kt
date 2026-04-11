@@ -54,7 +54,7 @@ fun ProfileScreen(
             if (userProfile.profileImagePath != null) {
                 AsyncImage(
                     model = userProfile.profileImagePath,
-                    contentDescription = null,
+                    contentDescription = stringResource(R.string.cd_profile_image),
                     modifier = Modifier.size(120.dp).clip(androidx.compose.foundation.shape.CircleShape),
                     contentScale = ContentScale.Crop
                 )

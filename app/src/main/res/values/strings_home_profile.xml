@@ -11,4 +11,7 @@
 
     <string name="btn_delete_profile">Supprimer</string>
     <string name="btn_select_image">Sélectionner une image</string>
+
+    <string name="cd_unam_logo">Logo de l\'UNAM</string>
+    <string name="cd_profile_image">Image de profil</string>
 </resources>

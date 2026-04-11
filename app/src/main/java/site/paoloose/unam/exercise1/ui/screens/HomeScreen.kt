@@ -34,7 +34,7 @@ fun HomeScreen(
     ) {
         Image(
             painter = painterResource(id = R.drawable.unam_logo),
-            contentDescription = "UNAM Logo",
+            contentDescription = stringResource(R.string.cd_unam_logo),
             modifier = Modifier.size(150.dp)
         )
         Spacer(modifier = Modifier.height(32.dp))
